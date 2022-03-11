@@ -1,3 +1,4 @@
+---
 name: Mirroring
 
 on: [push, delete]
