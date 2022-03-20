@@ -4,7 +4,7 @@ Install and configure ara on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-ara/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ara/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-ara/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-ara)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/ara)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/ara)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ara.svg)](https://github.com/buluma/ansible-role-ara/releases/)|
+|[![github](https://github.com/buluma/ansible-role-ara/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ara/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-ara/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-ara)|[![quality](https://img.shields.io/ansible/quality/58350)](https://galaxy.ansible.com/buluma/ara)|[![downloads](https://img.shields.io/ansible/role/d/58350)](https://galaxy.ansible.com/buluma/ara)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ara.svg)](https://github.com/buluma/ansible-role-ara/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
