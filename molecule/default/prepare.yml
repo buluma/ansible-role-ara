@@ -9,3 +9,5 @@
     - role: buluma.buildtools
     - role: buluma.epel
     - role: buluma.python_pip
+    - role: buluma.service
+    - role: buluma.systemd
