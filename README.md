@@ -1,4 +1,4 @@
-# [ara](#ara)
+# [Ansible role ara](#ara)
 
 Install and configure ara on your system.
 
