@@ -31,11 +31,15 @@
       register: ara_callback_plugins
       changed_when: no
       check_mode: no
+      tags:
+        - molecule-idempotence-notest
   rescue:
     - name: Try python3
       ansible.builtin.command: "{{ ara_setup_command_python3 }}"
       register: ara_callback_plugins
       changed_when: no
+      tags:
+        - molecule-idempotence-notest
 
 # - name: configure ansible to use ara with found path
 #   community.general.ini_file:
