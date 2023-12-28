@@ -11,3 +11,4 @@
     - role: buluma.python_pip
     - role: buluma.service
     - role: buluma.systemd
+      systemd_default_target: ""
