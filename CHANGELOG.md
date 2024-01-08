@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.0](https://github.com/buluma/ansible-role-ara/tree/0.2.0) (2024-01-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-ara/compare/0.1.4...0.2.0)
+
 ## [0.1.4](https://github.com/buluma/ansible-role-ara/tree/0.1.4) (2023-12-28)
 
 [Full Changelog](https://github.com/buluma/ansible-role-ara/compare/0.1.3...0.1.4)
