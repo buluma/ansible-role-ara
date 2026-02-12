@@ -37,6 +37,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#20](https://github.com/buluma/ansible-role-ara/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#19](https://github.com/buluma/ansible-role-ara/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-ara/tree/0.2.0) (2024-01-02)
@@ -72,7 +73,6 @@
 
 **Merged pull requests:**
 
-- Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#20](https://github.com/buluma/ansible-role-ara/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.1 to 1.0.3 [\#2](https://github.com/buluma/ansible-role-ara/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2 to 3 [\#1](https://github.com/buluma/ansible-role-ara/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
