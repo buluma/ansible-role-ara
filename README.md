@@ -53,7 +53,8 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # The ansible.cfg to modify.
 ara_configuration_file: /etc/ansible/ansible.cfg
 
-# The user to run ara as. Typically root, but if you run playbooks under your username, ara saves data in your homedirectory. In that case change the ara_user to your username.
+# The user to run ara as. Typically root, but if you run playbooks under your username,
+# ara saves data in your homedirectory. In that case change the ara_user to your username.
 ara_user: root
 
 # This role tries to "find" python. If you are using a specific path to python,
