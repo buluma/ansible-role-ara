@@ -63,16 +63,13 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-ara/compare/0.1.1...0.1.2)
 
-**Merged pull requests:**
-
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#4](https://github.com/buluma/ansible-role-ara/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [0.1.1](https://github.com/buluma/ansible-role-ara/tree/0.1.1) (2022-03-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-ara/compare/0.1.0...0.1.1)
 
 **Merged pull requests:**
 
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#4](https://github.com/buluma/ansible-role-ara/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.1 to 1.0.3 [\#2](https://github.com/buluma/ansible-role-ara/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2 to 3 [\#1](https://github.com/buluma/ansible-role-ara/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
