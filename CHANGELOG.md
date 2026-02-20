@@ -13,6 +13,7 @@
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#29](https://github.com/buluma/ansible-role-ara/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#28](https://github.com/buluma/ansible-role-ara/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#27](https://github.com/buluma/ansible-role-ara/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#19](https://github.com/buluma/ansible-role-ara/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-ara/tree/24.3.31) (2024-03-26)
 
@@ -38,7 +39,6 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#20](https://github.com/buluma/ansible-role-ara/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#19](https://github.com/buluma/ansible-role-ara/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-ara/tree/0.2.0) (2024-01-02)
 
@@ -63,13 +63,16 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-ara/compare/0.1.1...0.1.2)
 
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#4](https://github.com/buluma/ansible-role-ara/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.1.1](https://github.com/buluma/ansible-role-ara/tree/0.1.1) (2022-03-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-ara/compare/0.1.0...0.1.1)
 
 **Merged pull requests:**
 
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#4](https://github.com/buluma/ansible-role-ara/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.1 to 1.0.3 [\#2](https://github.com/buluma/ansible-role-ara/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2 to 3 [\#1](https://github.com/buluma/ansible-role-ara/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
