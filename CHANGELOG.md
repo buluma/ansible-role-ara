@@ -13,7 +13,7 @@
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#29](https://github.com/buluma/ansible-role-ara/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#28](https://github.com/buluma/ansible-role-ara/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#27](https://github.com/buluma/ansible-role-ara/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#19](https://github.com/buluma/ansible-role-ara/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump dependabot/fetch-metadata from 1 to 2 [\#26](https://github.com/buluma/ansible-role-ara/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-ara/tree/24.3.31) (2024-03-26)
 
@@ -21,7 +21,6 @@
 
 **Merged pull requests:**
 
-- Bump dependabot/fetch-metadata from 1 to 2 [\#26](https://github.com/buluma/ansible-role-ara/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#23](https://github.com/buluma/ansible-role-ara/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.2.26](https://github.com/buluma/ansible-role-ara/tree/24.2.26) (2024-02-17)
@@ -39,6 +38,7 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#20](https://github.com/buluma/ansible-role-ara/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#19](https://github.com/buluma/ansible-role-ara/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-ara/tree/0.2.0) (2024-01-02)
 
