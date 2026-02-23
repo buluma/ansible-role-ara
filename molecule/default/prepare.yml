@@ -1,14 +1,13 @@
----
-- name: Prepare
-  hosts: all
-  become: true
-  gather_facts: false
+  - name: Prepare
+    hosts: all
+    become: true
+    gather_facts: false
 
-  roles:
-    - role: buluma.bootstrap
-    - role: buluma.buildtools
-    - role: buluma.epel
-    - role: buluma.python_pip
-    - role: buluma.service
-    - role: buluma.systemd
-      systemd_default_target: "multi-user.target"
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.buildtools
+      - role: buluma.epel
+      - role: buluma.python_pip
+      - role: buluma.service
+      - role: buluma.systemd
+        systemd_default_target: "multi-user.target"
