@@ -55,8 +55,6 @@
       register: ara_callback_plugins
       changed_when: false
       check_mode: false
-      tags:
-        - molecule-idempotence-notest
       when:
         - _ara_bin_dir is defined
 
@@ -65,8 +63,6 @@
         cmd: "{{ ara_setup_command_python3 }}"
       register: ara_callback_plugins
       changed_when: false
-      tags:
-        - molecule-idempotence-notest
       when:
         - _ara_bin_dir is not defined
   rescue:
@@ -75,8 +71,6 @@
       register: ara_callback_plugins
       changed_when: false
       check_mode: false
-      tags:
-        - molecule-idempotence-notest
 
 # - name: configure ansible to use ara with found path
 #   community.general.ini_file:
@@ -123,5 +117,3 @@
     name: ara
     state: started
     enabled: true
-  tags:
-    - molecule-idempotence-notest
