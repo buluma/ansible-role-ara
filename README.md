@@ -30,6 +30,13 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   become: true
   gather_facts: false
 
+  pre_tasks:
+    - name: Install sudo if missing
+      ansible.builtin.raw: "{{ ansible_pkg_mgr | default('dnf') }} install -y sudo"
+      become: false
+      changed_when: false
+      failed_when: false
+
   roles:
     - role: buluma.bootstrap
     - role: buluma.buildtools
@@ -57,8 +64,12 @@ ara_configuration_file: /etc/ansible/ansible.cfg
 # ara saves data in your homedirectory. In that case change the ara_user to your username.
 ara_user: root
 
-# This role tries to "find" python. If you are using a specific path to python,
-# you can set `ara_callback_plugins`. For example:
+# The path to the virtual environment where ara will be installed.
+# If empty, ara is installed system-wide.
+ara_venv_path: /opt/ara/venv
+
+# If you are using a specific path to python, you can set `ara_callback_plugins`.
+# For example:
 # ara_python_plugins_path: /home/username/venv/site-packages/ara/plugins/callback
 
 # Extra options can be set using this structure.
@@ -100,13 +111,14 @@ Here is an overview of related roles:
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
+This role has been tested on these [container images](https://hub.docker.com/u/buluma):
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
-|[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
-|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
+|[EL](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Fedora](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -124,6 +136,3 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-### Get Help
-- Report issues: https://github.com/buluma/ansible-role-ara/issues/new
-- See docs: https://docs.ansible.com/collection/gallery/ansible-role-ara
